@@ -18,7 +18,7 @@ public class RyuTest {
 
         for (int i = 0; i <= list.size(); i++) {//지금 size는 10..그냥 숫자 10으로 넣어도 되지않나??
             int zzaksu = list.get(i);//1,2,3,4,5,6,7,8,9,10...을
-            if (i % 2 == 0 ){//2로 나눠서 나머지가 0과 같으면...result값에 추가 하면 될듯 = 짝수만 담겨짐
+            if (zzaksu % 2 == 0 ){//2로 나눠서 나머지가 0과 같으면...result값에 추가 하면 될듯 = 짝수만 담겨짐
             result.add(zzaksu);
             }
 
