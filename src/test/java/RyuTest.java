@@ -9,7 +9,7 @@ import java.util.List;
 public class RyuTest {
     @Test
     public void ryuTest(){
-        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8 ,9, 10);//이거 for문 돌려서..?
+        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8 ,9);//이거 for문 돌려서..?
 
 
 //        List<Integer> result = new ArrayList<Integer>();
