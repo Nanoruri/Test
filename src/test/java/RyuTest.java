@@ -15,15 +15,14 @@ public class RyuTest {
 
         List<List<Integer>> result = new ArrayList<List<Integer>>();
 
-        result.get(2);
+
 //        for (int i = 0; i < list.size(); i++) {//지금 size는 10 맞구연
 //
 //            if (i % 2 == 0) {//2로 나눠서 나머지가 0과 같으면...result값에 추가 하면 될듯 = 짝수만 담겨짐
-//                result.size();
 //            }
 
-            System.out.println(result);
+            System.out.println(list.get(1));
         }
     }
-}
+
 
