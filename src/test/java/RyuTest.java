@@ -16,16 +16,14 @@ public class RyuTest {
        List<Integer> result = new ArrayList<Integer>();//???이거 왜 두번 싸여져있었지
 
 
-        for (int i = 0; i <= list.size(); i++) {//지금 size는 10..그냥 숫자 10으로 넣어도 되지않나??
+        for (int i = 0; i < 10; i++) {//지금 size는 10..그냥 숫자 10으로 넣어도 되지않나??
             int zzaksu = list.get(i);//1,2,3,4,5,6,7,8,9,10...을
             if (zzaksu % 2 == 0 ){//2로 나눠서 나머지가 0과 같으면...result값에 추가 하면 될듯 = 짝수만 담겨짐
             result.add(zzaksu);
             }
-
-
-
             System.out.println(result);
         }
+
     }
 }
 
